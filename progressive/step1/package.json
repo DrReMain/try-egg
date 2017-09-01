@@ -1,0 +1,17 @@
+{
+  "name": "step1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "egg": "^1.7.0",
+    "egg-bin": "^4.2.0",
+    "egg-mock": "^3.10.0",
+    "supertest": "^3.0.0"
+  },
+  "scripts": {
+    "start": "egg-bin dev",
+    "test": "egg-bin test",
+    "cov": "egg-bin cov"
+  }
+}
